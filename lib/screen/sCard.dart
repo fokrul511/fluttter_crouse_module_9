@@ -101,6 +101,7 @@ class CardStack extends StatelessWidget {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: Colors.green,
+                        boxShadow: [ BoxShadow(color: Colors.white, spreadRadius: 1, blurRadius: 5)]
                       ),
                     ),
                   ),
